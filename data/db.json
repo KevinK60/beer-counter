@@ -5,13 +5,14 @@
       "body": "",
       "author": "mario",
       "id": 7,
-      "beers": 2
+      "beers": 19
     },
     {
       "title": "Robbie",
       "body": "",
       "author": "mario",
-      "id": 8
+      "id": 8,
+      "beers": 7
     }
   ]
 }
