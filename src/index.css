@@ -4,7 +4,8 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: #ffdca1;
+  background-color: #231700;
 }
 .navbar {
   padding: 20px;
@@ -12,19 +13,23 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #ffdca1;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #ffdca1;
+  
 }
 .navbar .links {
   margin-left: auto;
+  
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color: #ffdca1;
 }
+
 .navbar a:hover {
   color: #f1356d;
 }
@@ -32,43 +37,62 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+
 }
 
 /* blog previews / list */
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #231700;
+  border: 2px solid #ffdca1;
 }
+
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 3px 5px rgba(255,255,255,3);
 }
+
+.blog-preview p {
+  color: #ffdca1;
+  
+}
+
+
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+
   margin-bottom: 8px;
 }
+
 .blog-preview a{
   text-decoration: none;
+
 }
+
+
+
+
+
 
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #ffdca1;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
-  color: #fff;
+  background: #ffdca1;
+  color: #231700;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
 }
+
+
 
 /* create new blog form */
 .create {
@@ -79,10 +103,11 @@
 .create label {
   text-align: left;
   display: block;
+  color: #ffdca1;
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #ffdca1;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -94,10 +119,14 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
-  color: #fff;
+  background: #ffdca1;
+  color: black;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.create input {
+  color: #ffdca1;
 }
