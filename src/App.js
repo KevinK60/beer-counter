@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import Signup from './Signup';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/create">
-              <Create exact />
+            <Route path="/signup">
+              <Signup exact />
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
