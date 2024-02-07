@@ -15,6 +15,7 @@ import Account from './signup/Account';
   
   Assistance in resolving this issue is appreciated.
 */
+
 function App() {
   return (
     <Router>

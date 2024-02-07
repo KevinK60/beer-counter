@@ -1,6 +1,7 @@
 /*
   Template placeholder for functionality until sign-up feature is implemented.
   This may inherit users once the feature is operational.
+  
 */
 
 const mongoose = require('mongoose');

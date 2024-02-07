@@ -2,6 +2,19 @@ import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import { useState, useEffect } from "react";
 
+
+
+
+
+/*
+[Feature] Implement functionality for handling beer additions
+
+This commit adds functionality to the beer counter application to handle the addition of new beers. Currently, only the handleAdd function is fully functional.
+
+Additionally, there's an idea proposed for xaenhancing the user experience by incorporating a pop-up notification when a beer is added. This notification could feature an image of the beer and be sent to admins for verification. The admins would then have the option to confirm or deny the addition of the beer.
+
+Note: This feature may require significant development effort and is deferred for future consideration.
+*/
 const BlogDetails = () => {
   const { id: paramId } = useParams(); // Assuming the parameter name is 'id'
   const { data: blogs, isPending, error, updateData } = useFetch('http://localhost:3002/api/all-blogs'); // Update the URL

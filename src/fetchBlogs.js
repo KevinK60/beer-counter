@@ -1,9 +1,5 @@
-
 /*
-NEED TO MOVE THIS FILE TO server folder with blog schema 
-
-
-
+  This file needs to be relocated to the 'server' folder, where it will be associated with the blog schema.
 */
 
 const express = require('express');

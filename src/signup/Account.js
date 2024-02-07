@@ -1,3 +1,12 @@
+/*
+  Currently experiencing issues with functionality.
+  We have a file named 'fetchblog.js' in our project, serving as our Node server responsible for fetching data.
+  
+  Assistance in troubleshooting and resolving the issue is needed.
+  fetchblog.js is gonna be huge file 
+  And will be to need moved to server folder 
+
+*/
 import React, { useState } from 'react';
 import './style.css'
 const SignUpForm = () => {
