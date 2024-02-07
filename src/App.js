@@ -6,6 +6,15 @@ import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import Account from './signup/Account';
 
+
+/*
+  Encountered difficulty while attempting to create a folder named 'signup' to organize account-related files.
+
+  Example import statement in navbar.js:
+  import Account from './signup/Account';
+  
+  Assistance in resolving this issue is appreciated.
+*/
 function App() {
   return (
     <Router>

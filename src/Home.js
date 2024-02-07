@@ -1,3 +1,7 @@
+/*
+  Task: Rename all references to 'blog' across the project.
+*/
+
 import React from 'react';
 import BlogList from './BlogList';
 import useFetch from './useFetch';

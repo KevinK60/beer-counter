@@ -1,3 +1,11 @@
+
+/*
+NEED TO MOVE THIS FILE TO server folder with blog schema 
+
+
+
+*/
+
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');

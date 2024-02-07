@@ -1,3 +1,9 @@
+
+
+/*
+  Note: This message only displays when the Node server is not functioning. 
+  This could be more funny ngl 
+*/
 import { Link } from "react-router-dom"
 
 const NotFound = () => {
