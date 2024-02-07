@@ -1,0 +1,17 @@
+{
+  "blogs": [
+    {
+      "title": "Robbie",
+      "body": "",
+      "author": "mario",
+      "id": "8",
+      "beers": 14
+    },
+    {
+      "id": "7154",
+      "title": "d",
+      "body": "",
+      "author": "mario"
+    }
+  ]
+}

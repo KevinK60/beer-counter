@@ -1,0 +1,1 @@
+WE SHOULD USE AND CONVERT fetchblogs.js into here using real routes and stuff like that
